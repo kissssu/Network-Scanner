@@ -24,7 +24,7 @@ A Python-based script that scans a network for live hosts, retrieves their MAC a
 ```bash
 python3 network_scanner.py --h 192.168.1.0/24
 ```
-
+ 
 2. Example Output:
 ```
 +-----------------+-------------------+------------------+
