@@ -52,6 +52,18 @@ python3 network_scanner.py --h 192.168.1.0/24 192.168.1.10
 - Requires administrator privileges to send ARP packets.
 - Only works on networks where ARP requests can be sent and responses can be received.
 
+## Upcoming Updates
+
+This section outlines planned enhancements and features for future versions of the Network Scanner. Contributions and suggestions are welcome!
+
+* **Asynchronous Scanning:** Implement asynchronous scanning using `asyncio` or threading to significantly improve scanning speed, especially for larger networks.
+* **IP Range Input Flexibility:** Allow users to specify IP ranges in more flexible formats (e.g., CIDR notation, comma-separated lists, ranges with hyphens).
+* **Output to File:** Enable users to save scan results to a file (CSV, JSON, or text) for later analysis and reporting.
+* **Progress Bar:** Add a progress bar to provide visual feedback during scanning, especially helpful for large subnets.
+* **Improved Error Handling:** Enhance error handling with `try...except` blocks to catch potential network issues or invalid input and provide more informative error messages.
+
+We are actively working on these updates and will release them as they become available. Please stay tuned!
+
 ## Disclaimer
 This tool is for **educational and authorized network auditing purposes only.** Unauthorized use is strictly prohibited.
 
